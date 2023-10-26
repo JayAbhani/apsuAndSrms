@@ -1,0 +1,114 @@
+operaring system
+------------------------
+the behind-the-sceness softwares that allows your computers to function and run the programs.
+
+bridge between user and computer softwares
+
+
+os management tasks
+------------------------------------
+1. memory management
+2. process management
+3. file management
+4. user management
+5. security
+
+
+
+types of os
+
+
+
+
+what is linux
+
+
+
+
+linux features
+    unix-like kernal
+    open source
+    multitasking
+    security
+    portable
+
+
+
+
+linux architecture
+    hardware layer
+    kernel
+    shell
+    utilities
+        commands + softwares
+
+
+
+
+history of linux
+    birth of linux (1990s)
+    open-source community
+    growth and adoption
+    variety of distributions
+    present day
+
+
+
+
+linux distributions
+    ubantu
+    fedora
+    kali linux
+
+
+
+
+lab-1 : installing linux on virtualbox
+
+
+
+
+linux kernal
+    - core component of linux os
+    - bridge between your computer's hardware and the softwares that you run
+
+
+
+linux file system
+    /
+        bin
+        boot
+        dev
+        etc
+        home
+            user1
+            user2
+            ...
+        lib
+        media
+        root
+        tmp
+        var
+
+
+/ (root directory)
+    - root of file system
+    - everything in linux is organized under this directory
+
+/bin (binaries)
+    - contains essential binary files and commands for system booting.
+
+/boot (bootable kernel)
+    - contains files necessary for system to boot, including kernel
+
+/home (user home directories)
+    - this is where user home directories are typically located
+
+/lib (libraries) 
+    - contains libraries needed by programs and to run various system commands and utilities
+
+/root (root's home directory)
+    - home directory for the root 
+
+/tmp (temporary files)
+    - stores temporary files created by applications and users.

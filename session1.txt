@@ -1,0 +1,68 @@
+Introduction to Artificial Intelligence (AI)
+----------------------------------------------------
+- way of making computers smart!
+-computer programs that can think, learn and make decisions like humans
+
+key points
+----------
+1. types of AI
+    Narrow AI
+    General AI
+
+2. machine learning
+    it's like teaching computers to learn from data
+
+3. deep learning
+    a subfield of ml, it uses artificial neural networks to make decisions and process data/information.
+
+4. natural language processing (NLP)
+    focuses on making systems understand and communicate in human language.
+
+5. robotics
+    robots with ai can perform tasks like assisting in surgeries or exploring other planets.
+
+
+
+Introduction to Web Development
+------------------------------------------------
+- process of creating websites and web apps.
+
+key points
+-----------
+1. frontend development
+    it is like developing the look and feel of a website.
+    html - structure
+    css - styling
+    js - behaviour
+
+2. backend development
+    like engine of a website
+    server management
+    handling client request, process the request and send response
+
+3. full stack development
+    developers working on both frontend and backed (also databases)
+
+
+
+
+Introduction of Clound Computing
+-----------------------------------------
+    - allows you to use the power of internet to access and use computing resources like storage, networking, databases, servers etc.
+
+    key points
+    ----------
+    1. on-demand resources
+    2. sclability
+    3. types of cloud services
+        i) infrastructure as a service (IaaS)
+        ii) platform as a service (PaaS)
+        iii) software as a service (SaaS)
+    4. benifits
+        cost-effective
+        flexible
+    5. popular cloud providers
+        AWS
+        Microsoft Azure
+        Google cloud
+    
