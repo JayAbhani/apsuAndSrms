@@ -1,0 +1,142 @@
+file access rights
+---------------------
+    - read
+    - write
+    - execute
+    - read and write
+    - read and execute
+    - write and execute
+    - read, write and execute
+
+
+3 types of users of file
+------------------------------
+    owner
+    group
+    others
+
+chmod command
+----------------
+    - used to change the permissions of a file or directory
+
+    chmod <permissions> <file>
+
+    example:
+        chmod u+rw file1.txt
+        chmod o-x file1.txt
+        chmod u+rw,o+r file1.txt
+
+
+
+
+shell
+-----------------------
+- a shell is a user interface that allows a user to interact with operating system.
+
+- it acts as an intermediate between the user and the kernel of the operating system enabling users to run commands/programs.
+
+command-line shells
+---------------------------
+bash
+zsh
+csh
+ksh
+tcsh
+
+how to check available shells
+---------------------------------
+cat /etc/shells
+
+
+
+shell scripting
+----------------------------------
+- a way to create shell scripts
+- the process of writing a series of commands or scripts in a shell language which can be executed in the shell.
+
+
+
+terminal vs bash
+--------------------------
+terminal is an application that provides the interface for entering commands and receiving outputs.
+
+bash is a specific shell that runs within terminal.
+
+
+
+
+hello world shell script
+----------------------------
+name="jay"
+echo "hello $name, good evening!"
+
+
+if-then-else
+----------------------------
+if [ "$name" -eq "jay" ]
+then
+    echo "hello jay, good evening!"
+else
+    echo "hello $name, good evening!"
+fi
+
+
+if-then-elif
+------------------------------
+if condiion1
+then 
+    #code to execute
+elif condiion2
+then
+    #code to execute
+elif condition3
+then
+    #code to execute
+else
+    #code to execute
+fi
+
+
+for loop
+------------------------
+for number in {1..50}       //1 2 3 4 5
+do
+    echo $number
+done
+
+
+while loop
+--------------------
+count=1
+while [ $count -le 10 ]
+do
+    echo $count
+    ((count++))
+done
+
+
+
+
+ssh (secure shell)
+-----------------------
+ssh is a protocol or method which provides a secure way to connect to a remote server.
+
+scp (secure copy protocol) 
+-----------------------------
+scp is a protocol or method which provides a secure way to copy files from one server to another.
+
+ssh unsername@remote_server_ip
+scp username@remote_server_ip:/path/to/source /path/to/destination
+
+
+
+
+databases
+-------------------------
+data
+information
+database
+database management system
+relational database
+relational database management system
+sql

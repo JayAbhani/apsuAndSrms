@@ -1,0 +1,132 @@
+cp command
+--------------------
+to copy files and directories from one place to another.
+
+cp <source> <destination>
+
+options:
+    -r recursive
+    -i interactive
+
+copy a file
+cp file1.txt /path/to/destination
+
+copy a directory
+cp -r dir1 /path/to/destination
+
+
+
+
+
+mv and rm commands
+------------------------
+mv:
+    - move files and directories from one place to another.
+    - used to rename files and directories.
+
+mv <options> <source> <destination>
+
+-i
+    - to ask user for confirmation
+
+move a file
+    mv file1.txt /path/to/destination
+
+rename a file
+    mv oldFile.txt newFile.txt
+
+
+rm:
+    - remove files and directories.
+
+    rm <options> <file/directory>
+
+    -i
+        to ask user for confirmation
+
+    -r
+        recursive (for directories)
+
+
+
+mkdir and rmdir commands
+---------------------------
+mkdir:
+    - create directories
+
+    mkdir <options> <directory_name>
+
+    -p
+        creates parent directories if they don't exist
+
+    mkdir one
+    mkdir -p one/two/three
+
+rmdir:
+    - remove empty directories
+
+    rmdir <options> <directory_name>
+
+
+
+
+working with files in linux
+-----------------------------------------
+touch:
+    - create an empty file
+
+    touch example.txt
+
+cat:
+    - to view the content of a file
+
+    cat example.txt
+
+head:
+    - to view the first few lines (10 lines) of a file
+
+    head example.txt
+
+    -n
+        to specify the number of lines
+
+    head -n 5 example.txt
+
+
+tail:
+    - to view the last few lines (10 lines) of a file
+
+    tail example.txt
+
+    -n
+        to specify the number of lines
+
+    tail -n 5 example.txt
+
+
+
+
+
+
+
+
+
+
+
+
+jayabhani
+    Documents
+        demo
+            one
+            
+        demo2   
+            newFile1.txt
+
+
+TERMINAL
+-------------------
+cd Documents
+cd demo
+rmdir one
+
+

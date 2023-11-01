@@ -1,0 +1,49 @@
+ls command
+------------------
+used to list the contents(files and directories) of a directory.
+
+ls: files and directories
+ls -l : long format
+ls -a : all files
+ls -h : human-readable sizes
+ls -t : sort by modification time
+ls -r : reverse order
+
+
+
+notations
+--------------
+.
+    represents current directory
+
+..
+    represents parent directory
+
+- 
+    represents previous directory
+
+~ (tilde)
+    represents home directory
+
+/
+    directory separator
+
+
+
+cd and pwd
+------------------
+cd - change directory
+    to change current working directory
+
+cd Documents
+cd ./Documents
+cd ~
+cd ..
+cd Documents/"my demo"
+
+
+pwd - present working directory
+    to display current working directory
+
+pwd
+
