@@ -140,3 +140,9 @@ database management system
 relational database
 relational database management system
 sql
+
+height  weight
+5.6     59   
+4.8     65
+5.1     70
+5.4     75

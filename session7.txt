@@ -1,0 +1,9 @@
+databases
+-------------------------
+data
+information
+database
+database management system
+relational database
+relational database management system
+sql

@@ -1,0 +1,46 @@
+lab - 5 : installing mysql
+-----------------------------------
+
+
+lab - 6 : creating first database
+------------------------------------------
+create database company;
+
+
+tables
+-----------------------------------
+
+
+lab - 6 : creating tables
+-------------------------------------
+create table employees (
+	employee_id int primary key,
+    first_name varchar(30),
+    last_name varchar(30),
+    salary int
+);
+
+
+to show tables
+--------------------------
+show tables;
+
+
+inserting data in table
+---------------------------------
+insert into employees (employee_id, first_name, last_name, salary)
+values 
+	(2, "neha", "sharma", 3000),
+    (3, "kajal", "shah", 1500),
+    (4, "nirav", "desai", 2500);    
+
+
+retriving data from table
+-----------------------------
+select * from employees;
+select first_name, last_name from employees;
+
+
+to get table structure
+-----------------------------
+describe employees;
