@@ -1,0 +1,83 @@
+keys
+---------------------
+
+1. primary key:
+    - uniquely identifies each row in a table
+    - can not be null
+    - can not be duplicated
+
+2. foreign key:
+    - establishes a relationship between two tables
+    - refers to the primary key of another table
+
+3. unique key:
+    - ensures uniqueness in a column
+    - can be null
+    - can not be duplicated
+
+4. candidate key:
+    - a minimal super key
+    - a set of columns that could serve as the primary key
+    - uniquely identifies rows with no unnecessary columns
+
+5. composite key:
+    - uses a combination of colimns to uniquely identify rows.
+    - necessary when no single coumn can ensure uniqueness
+    - combines two or more columns for unique identification
+
+6. super key:
+    - a set of columns, including candidate keys that can uniquely identifies rows
+    - may include more columns then necessary for uniqueness
+
+
+
+Employee table
+
+EmployeeId        |   FirstName   |   LastName    |   Email
+----------------- | -------------- | ------------- | -------------
+1                       A                 J            a@example.com
+2                       B                 S            b@example.com
+3                       C                 B            c@example.com
+
+primary key:    EmployeeId
+foreign key:    DepartmentId    
+unique key:     Email
+candidate key:  EmployeeId and Email
+composite key:  FirstNAme and LastName
+super key:      EmployeeId, FirstNAme and LastName
+
+
+
+lab-8 : use of keys
+--------------------------
+
+
+
+categories of sql commands
+-------------------------------
+1. ddl
+    create
+    drop
+    truncate
+    alter
+2. dml
+    select
+    insert
+    update
+    delete
+3. tcl
+    commit
+    rollback
+    savepoint
+4. dcl
+    grant
+    revole
+
+
+
+lab-9 : crud operations
+---------------------------------
+create  -> insert
+read    -> select
+update  -> update
+delete  -> delete

@@ -1,0 +1,53 @@
+1. html structure
+    html
+        head
+            title
+        body
+            h1
+            p
+
+
+
+2. headings
+    h1 - h6
+    importance
+
+
+3. formatting tags
+    b
+    i
+    u
+    strong
+    em
+    ins
+    small
+    big
+    del
+    mark
+    sub     o + h2 = h2o
+    sup     x^2 + 2x + 5 = 0
+
+
+4. list
+    ordered list
+    unordered list
+             type attribute
+
+
+5. attributes
+    extra/mandatory information for an element
+    attributeName = "value"
+
+
+6. anchor tag
+    a tag
+        href
+        target="_blank"
+
+
+7. tag vs element
+    element = start tag + content + end tag
+
+
+8. paragraph
+    p

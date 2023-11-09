@@ -1,0 +1,56 @@
+internet
+---------------------
+internet is large cable through which all the computers are connected all over the world.
+
+ip address
+---------------------
+
+
+protocol
+---------------------
+
+
+http
+---------------------
+
+
+
+www
+--------------------
+
+
+rendering
+------------------------
+    client-side rendering
+    server-side rendering
+
+
+frontend
+-----------------------
+    html - structure
+    css - styling
+    js - behaviour
+
+
+
+backend
+------------------------
+
+
+fullstack
+-----------------------
+
+
+
+HTML
+------------------------
+index.html or index.htm
+
+
+features of html
+--------------------------
+
+environment setup
+----------------------------
+    vs code
+    
