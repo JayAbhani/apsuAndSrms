@@ -1,0 +1,32 @@
+HTML Forms
+-------------------------------
+inpput
+    text
+    number
+    email
+    password
+    checkbox
+    submit
+    reset
+
+textarea
+
+select
+
+radio
+
+
+
+audio and video
+---------------------------
+audio:
+
+    <audio controls autoplay>
+        <source src="horse.mp3" type="audio/mp3">
+        audio not supported
+    </audio>
+
+    <video controls autoplay>
+        <source src="myvideo.mp4" type="video/mp4">
+        video not supported
+    </video>

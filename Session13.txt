@@ -1,0 +1,27 @@
+introduction to css
+--------------------------------
+    - for styling web pages
+
+
+how to add css in html
+---------------------------------
+
+
+
+css selectors
+------------------------------
+1. element selector (tag selector)
+2. class selector
+3. id selector
+
+
+
+class vs id
+---------------------------
+id:
+    - one element can have only one id.
+    - one id can be given to only one element.
+
+class:
+    - one element can have multiple classes.
+    - one class can be given to multiple elements.
