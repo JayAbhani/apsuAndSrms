@@ -1,0 +1,5 @@
+how to add javascript in html
+-------------------------------------------
+1. inline
+2. internal
+3. external

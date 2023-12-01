@@ -1,6 +1,6 @@
 HTML Forms
 -------------------------------
-inpput
+input
     text
     number
     email
@@ -30,3 +30,12 @@ audio:
         <source src="myvideo.mp4" type="video/mp4">
         video not supported
     </video>
+
+
+
+box model
+-------------------------------
+    content
+    padding
+    border
+    margin
